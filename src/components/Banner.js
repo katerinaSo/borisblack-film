@@ -4,7 +4,7 @@ const Banner = ({ title, info, children }) => {
   return (
     <div className={styles.banner}>
       <h1>{title}</h1>
-      <h5>{info}</h5>
+      <h6>{info}</h6>
       {children}
     </div>
   )
