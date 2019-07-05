@@ -34,7 +34,7 @@ export default ({data}) => (
       </Banner>
     </StyledHero>
     <About />
-    <Services />
+    {/* <Services /> */}
     <Featured/>
   </Layout>
 )
