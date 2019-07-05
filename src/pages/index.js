@@ -25,11 +25,11 @@ export default ({data}) => (
   <Layout>
     <StyledHero home="true" img={data.backgr.childImageSharp.fluid}>
       <Banner
-        title="Let's film it"
+        // title=
         info="Reality = Your Dream + My Dream "
       >
         <AniLink to="/contact" className="btn-white">
-          make a contact
+          let's film it
         </AniLink>
       </Banner>
     </StyledHero>
