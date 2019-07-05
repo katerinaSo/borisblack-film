@@ -36,7 +36,7 @@ const Navbar = () => {
             )
           })}
         </ul>
-        <div className={styles.navSocialLinks}>
+        {/* <div className={styles.navSocialLinks}>
           {socialIcons.map((item, index) => {
             return (
               <a
@@ -49,7 +49,10 @@ const Navbar = () => {
               </a>
             )
           })}
-        </div>
+        </div> */}
+        <div className={styles.navSocialLinks}>
+        <a>617.429.1955</a>
+      </div>
       </div>
     </nav>
   )

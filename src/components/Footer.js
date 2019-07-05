@@ -16,7 +16,7 @@ const Footer = () => {
           )
         })}
       </div>
-      <div className={styles.icons}>
+      {/* <div className={styles.icons}>
         {socialIcons.map((item, index) => {
           return (
             <a
@@ -29,6 +29,9 @@ const Footer = () => {
             </a>
           )
         })}
+      </div> */}
+      <div className={styles.icons}>
+        <a>617.429.1955</a>
       </div>
       <div className={styles.copyright}>
         copyright &copy; Borisblack American Eagle Boston Film Company{" "}
