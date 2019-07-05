@@ -15,7 +15,7 @@ import BackgroundImage from 'gatsby-background-image'
 
 
 export default styled(StyledHero)`
-background:${props=>props.home?"linear-gradient(rgba(63, 202, 212, 0.7), rgba(0, 0, 0, 0.7))":"none"};
+background:${props=>props.home?"linear-gradient(rgba(63, 202, 212, 0.8), rgba(0, 0, 0, 0.9))":"none"};
 min-height:${props=>props.home?"calc(100vh - 70px)":"50vh"};
 background-position:center;
 background-repeat:no-repeat;

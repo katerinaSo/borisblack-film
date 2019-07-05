@@ -1,8 +1,8 @@
-.tour {
+.film {
   box-shadow: var(--lightShadow);
   transition: var(--mainTransition);
 }
-.tour:hover {
+.film:hover {
   box-shadow: var(--darkShadow);
 }
 
@@ -26,12 +26,13 @@
   opacity: 0;
   text-transform: uppercase;
   letter-spacing: var(--mainSpacing);
-  color: var(--mainWhite);
-  border: 2px solid var(--mainWhite);
+  color: var(--primaryColor);
+  border: 2px solid var(--mainBlack);
   padding: 0.9rem 1.6rem;
   display: inline-block;
   transition: var(--mainTransition);
   cursor: pointer;
+  background: var(--mainWhite);
 }
 .link:hover {
   background: var(--mainWhite);
