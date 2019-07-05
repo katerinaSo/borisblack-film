@@ -26,7 +26,7 @@ export default ({data}) => (
     <StyledHero home="true" img={data.backgr.childImageSharp.fluid}>
       <Banner
         // title=
-        info="Reality = Your Dream + My Dream "
+        info="Reality = Your Vision + My Vision "
       >
         <AniLink to="/contact" className="btn-white">
           let's film it

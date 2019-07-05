@@ -18,11 +18,11 @@ const Navbar = () => {
         <div className={styles.navHeader}>
           <img style={{width:'200px'}}src={logo} alt="logo" />
           <button type="button" className={styles.logoBtn} onClick={toggleNav}>
-            {/* <FaAlignRight className={styles.logoIcon} /> */}
-            <h1 style={{color:"black", fontSize:'1.5em'}}> 617.429.1955</h1>
+            <FaAlignRight className={styles.logoIcon} />
+           
           </button>
         </div>
-        {/* <ul
+        <ul
           className={
             isOpen
               ? `${styles.navLinks} ${styles.showNav}`
@@ -36,8 +36,8 @@ const Navbar = () => {
               </li>
             )
           })}
-        </ul> */}
-        {/* <div className={styles.navSocialLinks}>
+        </ul>
+        <div className={styles.navSocialLinks}>
           {socialIcons.map((item, index) => {
             return (
               <a
@@ -50,10 +50,8 @@ const Navbar = () => {
               </a>
             )
           })}
-        </div> */}
-        <div className={styles.navSocialLinks}>
-        call: 617.429.1955
-      </div>
+        </div>
+        
       </div>
     </nav>
   )

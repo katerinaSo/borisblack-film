@@ -30,10 +30,14 @@ const About = () => {
         <article className={styles.aboutInfo}>
           {/* <h4>filmmakers</h4> */}
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla
-            doloribus enim necessitatibus?
+            Producer: <a className={styles.aboutLink} href="#">Boris Black</a>
+            <br></br> 
+            dolor sit amet consectetur adipisicing elit. Nulla
+            doloribus enim necessitatibus
           </p>
           <p>
+            Cinematographer: <a className={styles.aboutLink} href="#">Corey Warner</a>
+            <br></br> 
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla
             doloribus enim necessitatibus?
           </p>

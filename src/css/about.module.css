@@ -71,3 +71,11 @@
     max-width: 1170px;
   }
 }
+.about-link{
+  color:var(--primaryColor);
+  
+}
+.about-link:hover{
+  color:teal;
+}
+
