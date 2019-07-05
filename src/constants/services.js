@@ -5,16 +5,16 @@ export default [
   {
     icon: <FaVideo/>,
     title: "documentary",
-    text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Null",
+    text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. ",
   },
   {
     icon: <FaAudioDescription />,
     title: "commercial",
-    text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Null",
+    text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. ",
   },
   {
     icon: <FaBook />,
     title: "narative",
-    text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Null",
+    text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
   },
 ]
