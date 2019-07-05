@@ -12,7 +12,7 @@ export default ({film}) => {
             <Img fluid={images[0].fluid} className={styles.images}
             alt="project type"/>
             <AniLink fade className={styles.link} to="/films">
-             {slug}
+             {name}
             </AniLink>
         </div>
         
