@@ -5,7 +5,7 @@ import StyledHero from '../components/styledHero'
 
 export const query=graphql`
 query{
-  backgr:file(relativePath: {eq: "blogBcg.jpeg"}) {
+  backgr:file(relativePath: {eq: "blogAlt.jpeg"}) {
     childImageSharp {
       fluid {
         ...GatsbyImageSharpFluid_withWebp
