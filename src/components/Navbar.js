@@ -51,7 +51,7 @@ const Navbar = () => {
           })}
         </div> */}
         <div className={styles.navSocialLinks}>
-        <a>617.429.1955</a>
+        call: 617.429.1955
       </div>
       </div>
     </nav>
