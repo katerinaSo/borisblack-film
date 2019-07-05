@@ -40,14 +40,13 @@ export default () => {
         return <Film key={node.contentful_id} film={node} />
       })}
 
-
       </div>
 
 
       
 
-      <AniLink to="/films" className="btn-primary">
-        more ideas
+      <AniLink to="/contact" className="btn-primary">
+        your idea
       </AniLink>
     </section>
   )

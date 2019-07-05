@@ -3,10 +3,10 @@ export default [
     path: "/",
     text: "home",
   },
-  {
-    path: "/films",
-    text: "films",
-  },
+  // {
+  //   path: "/films",
+  //   text: "films",
+  // },
   {
     path: "/blog",
     text: "blog",

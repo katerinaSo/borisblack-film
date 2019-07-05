@@ -28,7 +28,7 @@ const About = () => {
           </div>
         </article>
         <article className={styles.aboutInfo}>
-          <h4>meet the crew</h4>
+          <h4>East + west</h4>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla
             doloribus enim necessitatibus?
@@ -37,9 +37,9 @@ const About = () => {
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla
             doloribus enim necessitatibus?
           </p>
-          <button type="button" className="btn-primary">
+          {/* <button type="button" className="btn-primary">
             read more
-          </button>
+          </button> */}
         </article>
       </div>
     </section>
