@@ -6,7 +6,7 @@ import Contact from "../components/Contact/Contact"
 
 export const query=graphql`
 query{
-  backgr:file(relativePath: {eq: "connectBcg.jpeg"}) {
+  backgr:file(relativePath: {eq: "contact.jpeg"}) {
     childImageSharp {
       fluid {
         ...GatsbyImageSharpFluid_withWebp
