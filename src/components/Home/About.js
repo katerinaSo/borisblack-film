@@ -51,7 +51,7 @@ const About = () => {
             <br></br> 
             <br></br>
             
-            Their recent film{" "}
+            Our recent film{" "}
             <a
               className={styles.aboutLink}
               href="https://www.youtube.com/watch?v=Cqe13_kR6KQ"
