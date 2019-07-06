@@ -1,10 +1,13 @@
 .film {
+  background: var(--mainWhite);
+  color: var(--primaryColor);
   box-shadow: var(--lightShadow);
+;
   transition: var(--mainTransition);
 }
-.film:hover {
+/* .film:hover {
   box-shadow: var(--darkShadow);
-}
+} */
 
 
 .img {

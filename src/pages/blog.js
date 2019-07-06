@@ -19,7 +19,8 @@ const blog = ({ data }) => {
   return (
     <Layout>
       {/* <StyledHero img={data.backgr.childImageSharp.fluid}/> */}
-      <div style={{margin:"auto"}}><a className="btn-primary" href="https://boston-film-co-flyer-pdf.netlify.com/">
+      <div style={{margin:"auto"}}><a target="_blank"
+                rel="noopener noreferrer" className="btn-primary" href="https://boston-film-co-flyer-pdf.netlify.com/">
         
         download
         <span > The Flyer</span>

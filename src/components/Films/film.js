@@ -9,11 +9,11 @@ export default ({ film }) => {
   return (
     <article className={styles.film}>
       <div className={styles.imgContainer}>
-        <Img
+        {/* <Img
           fluid={images[0].fluid}
           className={styles.images}
           alt="project type"
-        />
+        /> */}
         {/* <AniLink fade className={styles.link} to="/films">
           {name}
         </AniLink> */}
