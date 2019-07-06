@@ -31,7 +31,7 @@ const Footer = () => {
         })}
       </div> */}
       <div className={styles.icons}>
-        call: {' '} (617) 429-1955
+        617.429.1955
       </div>
       <div className={styles.copyright}>
         copyright &copy; Borisblack American Eagle Boston Film Company{" "}
