@@ -11,7 +11,7 @@ import Featured from '../components/Home/Featured'
 
 export const query=graphql`
 query{
-  backgr:file(relativePath: {eq: "eagleblueAdj.jpg"}) {
+  backgr:file(relativePath: {eq: "blue.jpg"}) {
     childImageSharp {
       fluid {
         ...GatsbyImageSharpFluid_withWebp
