@@ -34,7 +34,7 @@ export default () => {
   const films = response.featuredFilms.edges
   return (
     <section className={styles.films}>
-      <Title title="filming" subtitle="services" />
+      <Title title="we" subtitle="film" />
       <div className={styles.center}>
       {films.map(({ node }) => {
         return <Film key={node.contentful_id} film={node} />

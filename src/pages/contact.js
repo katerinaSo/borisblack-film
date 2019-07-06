@@ -20,7 +20,7 @@ export default function contact({data}) {
 
   return (
     <Layout>
-    <StyledHero home="" img={data.backgr.childImageSharp.fluid}/>
+    {/* <StyledHero home="" img={data.backgr.childImageSharp.fluid}/> */}
     <Contact/>
     </Layout>
   )
