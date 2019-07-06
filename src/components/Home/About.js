@@ -1,45 +1,61 @@
 import React from "react"
 import Title from "../Title"
 import styles from "../../css/about.module.css"
-import Img from 'gatsby-image'
-import {useStaticQuery,graphql} from 'gatsby'
+import Img from "gatsby-image"
+import { useStaticQuery, graphql } from "gatsby"
 const getAbout = graphql`
-{
-  aboutImage: file(relativePath: {eq: "defaultBcg.jpeg"}) {
-    childImageSharp {
-      fluid {
-        ...GatsbyImageSharpFluid_tracedSVG
+  {
+    aboutImage: file(relativePath: { eq: "defaultBcg.jpeg" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
       }
     }
   }
-}
-
-
 `
 const About = () => {
-  const {aboutImage}=useStaticQuery(getAbout)
+  const { aboutImage } = useStaticQuery(getAbout)
   return (
     <section className={styles.about}>
       <Title title="about" subtitle="us" />
       <div className={styles.aboutCenter}>
         <article className={styles.aboutImg}>
           <div className={styles.imgContainer}>
-            <Img fluid={aboutImage.childImageSharp.fluid}/>
+            <Img fluid={aboutImage.childImageSharp.fluid} />
           </div>
         </article>
         <article className={styles.aboutInfo}>
-          {/* <h4>filmmakers</h4> */}
+          <h4>filmmakers</h4>
           <p>
-            Producer: <a className={styles.aboutLink} href="#">Boris Black</a>
-            <br></br> 
-            dolor sit amet consectetur adipisicing elit. Nulla
-            doloribus enim necessitatibus
+            Boston Producer{" "}
+            <a className={styles.aboutLink} href="#">
+              Boris Black
+            </a>
+            <br></br>
+            took a new turn for his multimedia compamy  (BorisBlackWorks) to
+            film production and turned his film debute{" "}
+            <a
+              className={styles.aboutLink}
+              href="https://www.youtube.com/watch?v=Cqe13_kR6KQ"
+            >
+              'The Usual Route'
+            </a>{" "}
+            into a success. He welcomes new ideas and this site is done to
+            welcome new connections for filmmaking and bringing human visions
+            together.
           </p>
           <p>
-            Cinematographer: <a className={styles.aboutLink} href="#">Corey Warner</a>
-            <br></br> 
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla
-            doloribus enim necessitatibus?
+            Cinematographer from Los Angeles{" "}
+            <a className={styles.aboutLink} href="http://www.corywarner.com/">
+              Corey Warner
+            </a>
+            
+              {' '}is very talented, passionate, driven. His{" "}
+            <a className={styles.aboutLink} href="http://www.corywarner.com/">
+              cinematography
+            </a>{" "}
+            work speaks for itself.
           </p>
           {/* <button type="button" className="btn-primary">
             read more
