@@ -29,13 +29,14 @@ const About = () => {
           <h4>filmmakers</h4>
           <p>
             Boston Producer{" "}
-            <a className={styles.aboutLink} href="#">
+            <a className={styles.aboutLink} href="mailto:borisblack@hotmail.com">
               Boris Black
             </a>
             <br></br>
-             welcomes new ideas and this site is one of the paths to
-            welcome new connections for filmmaking and bringing human visions
-            together.
+             welcomes new ideas and new connections for filmmaking and bringing human visions
+            together. 
+            <br></br>
+            Have a project or idea to film? <br></br>Simply <a className={styles.aboutLink} href="mailto:borisblack@hotmail.com">email </a> him or call 617.429.1955
           </p>
           <p>
             Cinematographer from Los Angeles{" "}
@@ -57,7 +58,7 @@ const About = () => {
             >
               'The Usual Route'
             </a>{" "}
-            came into a success with recognitions from film festivals and love of the audience. 
+            came into a success with film festivals awards and recognitions and love from the audience. 
           </p>
           {/* <button type="button" className="btn-primary">
             read more
