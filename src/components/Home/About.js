@@ -26,7 +26,7 @@ const About = () => {
           </div>
         </article>
         <article className={styles.aboutInfo}>
-          <h4>filmmakers</h4>
+          {/* <h4>filmmakers</h4> */}
           <p>
             Boston Producer{" "}
             <a className={styles.aboutLink} href="mailto:borisblack@hotmail.com">
@@ -36,7 +36,7 @@ const About = () => {
              welcomes new ideas and new connections for filmmaking and bringing human visions
             together. 
             <br></br>
-            Have a project or idea to film? <br></br>Simply <a className={styles.aboutLink} href="mailto:borisblack@hotmail.com">email </a> him or call 617.429.1955
+            Have a project or idea to film? <br></br>Simply <a className={styles.aboutLink} href="mailto:borisblack@hotmail.com">email </a> him or call {' '} (617) 429-1955
           </p>
           <p>
             Cinematographer from Los Angeles{" "}
