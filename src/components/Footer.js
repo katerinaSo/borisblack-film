@@ -16,7 +16,7 @@ const Footer = () => {
           )
         })}
       </div>
-      {/* <div className={styles.icons}>
+      <div className={styles.icons}>
         {socialIcons.map((item, index) => {
           return (
             <a
@@ -29,8 +29,8 @@ const Footer = () => {
             </a>
           )
         })}
-      </div> */}
-      <div className={styles.icons}>
+      </div>
+      <div className={styles.links}>
         617.429.1955
       </div>
       <div className={styles.copyright}>

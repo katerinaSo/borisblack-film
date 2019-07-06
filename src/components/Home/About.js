@@ -5,7 +5,7 @@ import Img from "gatsby-image"
 import { useStaticQuery, graphql } from "gatsby"
 const getAbout = graphql`
   {
-    aboutImage: file(relativePath: { eq: "defaultBcg.jpeg" }) {
+    aboutImage: file(relativePath: { eq: "aboutSm.png" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid_tracedSVG
@@ -33,7 +33,7 @@ const About = () => {
               Boris Black
             </a>
             <br></br>
-             welcomes new ideas and new connections for filmmaking and bringing human visions
+             welcomes new ideas and connections for filmmaking, bringing people's creative visions
             together. 
             
           </p>
@@ -43,11 +43,11 @@ const About = () => {
               Corey Warner
             </a>
             
-              {' '}is a driven,  passionate, creative talent and his{" "}
+              {' '}is a passionate and dedicated talent; his cinematography{" "}
             <a className={styles.aboutLink} href="http://www.corywarner.com/">
-              cinematography
+            work 
             </a>{" "}
-            work speaks for itself.
+            speaks for itself.
             <br></br> 
             <br></br>
             
@@ -58,7 +58,7 @@ const About = () => {
             >
               'The Usual Route'
             </a>{" "}
-            came into a success with film festivals awards and recognitions and love from the audience. 
+            became a success on Film Festivals receiving awards, recognitions and love from the audience. 
           </p>
           {/* <button type="button" className="btn-primary">
             read more

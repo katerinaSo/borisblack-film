@@ -1,25 +1,25 @@
 import React from "react"
-import { FaFacebook, FaTwitterSquare, FaSquarespace,FaInstagram,FaLinkedin } from "react-icons/fa"
+import { FaFacebook, FaTwitterSquare, FaSquarespace,FaInstagram,FaLinkedin, FaYoutube } from "react-icons/fa"
 
 export default [
   {
-    icon: <FaFacebook />,
-    url: "https://twitter.com",
+    icon: <FaYoutube />,
+    url: "https://www.youtube.com/watch?v=Cqe13_kR6KQ",
   },
-  {
-    icon: <FaTwitterSquare />,
-    url: "https://twitter.com",
-  },
+  // {
+  //   icon: <FaTwitterSquare />,
+  //   url: "https://twitter.com",
+  // },
   {
     icon: <FaSquarespace />,
-    url: "https://twitter.com",
+    url: "http://www.corywarner.com/work",
   },
   {
     icon: <FaInstagram />,
-    url: "https://twitter.com",
+    url: "https://www.instagram.com/warnercc/",
   },
-  {
-    icon: <FaLinkedin />,
-    url: "https://twitter.com",
-  },
+  // {
+  //   icon: <FaLinkedin />,
+  //   url: "https://twitter.com",
+  // },
 ]
