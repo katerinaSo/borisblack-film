@@ -6,7 +6,7 @@ const Contact = () => {
     <section className={styles.contact}>
       <Title title="contact" subtitle="us" />
       <div className={styles.center}>
-        <form action="https://formspree.io/katya.solstad@gmail.com" method="POST"className={styles.form}>
+        <form action="https://formspree.io/borisblack@hotmail.com" method="POST"className={styles.form}>
           <div>
             <label htmlFor="name">name</label>
             <input

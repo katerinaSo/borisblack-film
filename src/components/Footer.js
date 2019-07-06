@@ -34,7 +34,7 @@ const Footer = () => {
         617.429.1955
       </div>
       <div className={styles.copyright}>
-        copyright &copy; Borisblack American Eagle Boston Film Company{" "}
+        &copy; Borisblack American Eagle Boston Film Company{" "}
         {new Date().getFullYear()} all rights reserved
       </div>
     </footer>
