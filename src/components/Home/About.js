@@ -38,12 +38,12 @@ const About = () => {
             
           </p>
           <p>
-            Cinematographer from Los Angeles{" "}
+            Filmmaker from Los Angeles{" "}
             <a className={styles.aboutLink} href="http://www.corywarner.com/">
               Corey Warner
             </a>
             
-              {' '}is a passionate and dedicated talent; his cinematography{" "}
+              {' '}is a talented, passionate, dedicated director/cinematographer; his cinematography{" "}
             <a className={styles.aboutLink} href="http://www.corywarner.com/">
             work 
             </a>{" "}
